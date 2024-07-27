@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sistema Hotel</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="imgFundoTop">
+		<div class="agenda">
+			<div class="dadosagenda">
+				<h2>FAÇA SUA RESERVA</h2>
+				<form action="#" method="post">
+					<div class="col1Form">
+						<div class="dataInicial">
+							<input type="date">
+						</div>
+						<div class="dataFinal">
+							<input type="date">
+						</div>
+					</div>
+					<div class="col2Form">
+						<select class="selAdultos">
+							<option>Adultos</option>
+							<option>1</option>
+							<option>2</option>
+						</select>
+						<select class="selCriancas">
+							<option>Crianças</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</select>
+					</div>
+					<button class="btn btn-warning">RESERVAR</button>
+				<form>
+			</div>
+		</div>
+	</div>
+	<div class="bg"></div>
+	
+	<div class="menu">
+		<nav class="navbar navbar-expand-lg navbar-light confBgColorNav">
+			<div class="container-fluid confSpace">
+				<a class="navbar-brand" href="index">
+					<img src="./img/hotel-icon.jpg" class="logoImg"> 
+				</a>
+		
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon btnMobile"></span>
+				</button>
+		
+				<div class="collapse navbar-collapse styleAdd" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0 styleSubAdd">
+						<li class="nav-item">
+							<a class="active" aria-current="page" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="active" aria-current="page" href="sobre.html">Sobre</a>
+						</li>
+						<li class="nav-item">
+							<a class="active" aria-current="page" href="outrasFerramentas.html">Quartos</a>
+						</li>
+						<li class="nav-item">
+							<a class="active" aria-current="page" href="contato">Contato</a>
+						</li>
+						<li class="nav-item">
+							<a class="active" aria-current="page" href="login">Login</i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	
+	<div class="quartos">
+		<div class="titulo">
+			<h2>Quartos</h2>
+			<h3>Escolha uma de nossas categorias de quartos</h3>
+		</div>
+		<div class="categoriasQuartos">
+			<div class="ctQ1 addConf">
+				<div class="imgQt">
+					<img src="./img/qt1.jpeg">
+				</div>
+				<h3>Standard</h3>
+				<h6>R$ 100/diária</h6>
+				<p><i class="fa-solid fa-check"></i>Vista Lateral</p>
+				<p><i class="fa-solid fa-check"></i>Televisão 32 Polegadas</p>
+				<p><i class="fa-solid fa-check"></i>Frigobar</p>
+			</div>
+			<div class="ctQ2 addConf">
+				<div class="imgQt">
+					<img src="./img/qt2.jpg">
+				</div>
+				<h3>Luxo</h3>
+				<h6>R$ 399,99/diária</h6>
+				<p><i class="fa-solid fa-check"></i>Televisão 32 Polegadas</p>
+				<p><i class="fa-solid fa-check"></i>TV a Cabo</p>
+				<p><i class="fa-solid fa-check"></i>Cama King</p>
+				<p><i class="fa-solid fa-check"></i>Frigobar</p>
+				<p><i class="fa-solid fa-check"></i>Vista Jardim</p>
+			</div>
+			<div class="ctQ3 addConf">
+				<div class="imgQt">
+					<img src="./img/qt3.webp">
+				</div>
+				<h3>Luxo Superior</h3>
+				<h6>R$ 799,00/diária</h6>
+				<p><i class="fa-solid fa-check"></i>Banheira Hidromassagem</p>
+				<p><i class="fa-solid fa-check"></i>Televisão 32 Polegadas</p>
+				<p><i class="fa-solid fa-check"></i>TV a Cabo</p>
+				<p><i class="fa-solid fa-check"></i>Cama King</p>
+				<p><i class="fa-solid fa-check"></i>Frigobar</p>
+			</div>
+			<div class="ctQ4 addConf">
+				<div class="imgQt">
+					<img src="./img/qt4.jpg">
+				</div>
+				<h3>Suite Master</h3>
+				<h6>R$ 900,00/diária</h6>
+				<p><i class="fa-solid fa-check"></i>Cama King Size</p>
+				<p><i class="fa-solid fa-check"></i>Televisão 32 Polegadas</p>
+				<p><i class="fa-solid fa-check"></i>Vista para o Mar</p>
+				<p><i class="fa-solid fa-check"></i>Banheira de Hidromassagem para dois</p>
+				<p><i class="fa-solid fa-check"></i>Frigobar</p>
+				<p><i class="fa-solid fa-check"></i>Secador de Cabelo</p>
+				<p><i class="fa-solid fa-check"></i>TV a Cabo</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="servicoselaser">
+		<div class="serLaser">
+			<h2>Seriços e Laser</h2>
+			<p>Desfrute de todos os nosso serviços e áreas de lazer</p>
+		</div>
+		<div class="classesServLaser">
+			<div class="servicoeLaser">
+				<h4><i class="fa fa-wifi"></i> Wi-Fi</h4>
+				<p>Aqui vai a descrição do item colocado</p>
+			</div>
+			<div class="servicoeLaser">
+				<h4><i class="fa-solid fa-person-swimming"></i> Piscina</h4>
+				<p>Aqui vai a descrição do item colocado</p>
+			</div>
+			<div class="servicoeLaser">
+				<h4><i class="fa-regular fa-futbol"></i> Campo Futebol</h4>
+				<p>Aqui vai a descrição do item colocado</p>
+			</div>
+			<div class="servicoeLaser">
+				<h4><i class="fa fa-gamepad"></i> Sala de Jogos</h4>
+				<p>Aqui vai a descrição do item colocado</p>
+			</div>
+			<div class="servicoeLaser">
+				<h4><i class="fa fa-beer"></i> Bar</h4>
+				<p>Aqui vai a descrição do item colocado</p>
+			</div>
+			<div class="servicoeLaser">
+				<h4><i class="fa-solid fa-utensils"></i> Restaurante</h4>
+				<p>Aqui vai a descrição do item colocado</p>
+			</div>
+			<div class="servicoeLaser">
+				<h4><i class="fa-solid fa-warehouse"></i> Garagem</h4>
+				<p>Aqui vai a descrição do item colocado</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="nossoHotel">
+		<div class="textoetitulo">
+			<h2>Nosso Hotel</h2>
+			<p>Nossa pousada fica há 1 Hora de Belo Horizonte, super bem localizada, bem aconchegante, diversas opções de passeios, serviços e lazer, venha conhecer.</p>
+			<p>Área de Lazer e estrutura completa para sua diversão!</p>
+			<p>pousada fica há 1 Hora de Belo Horizonte, super bem localizada, bem aconchegante, venha conhecer. Nossa pousada fica há 1 Hora de Belo Horizonte, super bem localizada, bem aconchegante, venha conhecer. Nossa pousada fica há 1 Hora de Belo Horizonte, super bem localizada, bem aconchegante, venha conhecer.</p>
+			<a href="#">Saiba mais</a>
+		</div>
+		<div class="marketing">
+			<img src="./img/hotel-icon.jpg">
+		</div>
+	</div>
+
+	<div class="comentarios">
+		<div class="titulosComentarios">
+			<h2>Comentários e Avaliações</h2>
+			<p>Confira alguns comentários e avaliações dos últimos hóspedes</p>
+		</div>
+		<div class="comt1">
+			<div class="pessoa">
+				<img src="./img/ps1.png">
+			</div>
+			<div class="comaval">
+				<p>Colocar o comentário que o hospede fez.</p>
+				<h3>Pessoa 1</h3>
+				<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+			</div>
+		</div>
+		<div class="comt1">
+			<div class="pessoa">
+				<img src="./img/ps1.png">
+			</div>
+			<div class="comaval">
+				<p>Colocar o comentário que o hospede fez.</p>
+				<h3>Pessoa 2</h3>
+				<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+			</div>
+		</div>
+		<div class="comt1">
+			<div class="pessoa">
+				<img src="./img/ps1.png">
+			</div>
+			<div class="comaval">
+				<p>Colocar o comentário que o hospede fez.</p>
+				<h3>Pessoa 3</h3>
+				<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+			</div>
+		</div>
+		<div class="comt1">
+			<div class="pessoa">
+				<img src="./img/ps1.png">
+			</div>
+			<div class="comaval">
+				<p>Colocar o comentário que o hospede fez.</p>
+				<h3>Pessoa 4</h3>
+				<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+			</div>
+		</div>
+		<div class="comt1">
+			<div class="pessoa">
+				<img src="./img/ps1.png">
+			</div>
+			<div class="comaval">
+				<p>Colocar o comentário que o hospede fez.</p>
+				<h3>Pessoa 5</h3>
+				<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+			</div>
+		</div>
+		<div class="comt1">
+			<div class="pessoa">
+				<img src="./img/ps1.png">
+			</div>
+			<div class="comaval">
+				<p>Colocar o comentário que o hospede fez.</p>
+				<h3>Pessoa 6</h3>
+				<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="fotosHotel">
+		<div class="tituloFotosHotel">
+			<h2>Galeria de Fotos do Hotél</h2>
+		</div>
+		<div class="imgHotel">
+			<img src="./img/fh1.jpg">
+		</div>
+		<div class="imgHotel">
+			<img src="./img/fh2.jpg">
+		</div>
+		<div class="imgHotel">
+			<img src="./img/fh3.jpg">
+		</div>
+		<div class="imgHotel">
+			<img src="./img/fh4.jpg">
+		</div>
+		<div class="imgHotel">
+			<img src="./img/fh5.jpg">
+		</div>
+		<div class="imgHotel">
+			<img src="./img/fh6.jpg">
+		</div>
+	</div>
+</body>
+</html>
